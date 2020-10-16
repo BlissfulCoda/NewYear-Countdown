@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Year Countdown</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Video Background -->
+    <video class="video-background" loop muted autoplay>
+        <source src="Nebula.mp4"></source>
+    </video>
+    <div class="video-overlay"></div>
+
+    <div class="year" id="year"></div>
+    <h1><span class="letter">N</span>ew <span class="letter">Y</span>ear <span class="letter">C</span>ountdown</h2>
+
+    <div id="countdown" class="countdown">
+        <div class="time">
+            <h2 id="days" class="numbers">00</h2>
+            <small>&nbsp;&nbsp;&nbsp;&nbsp;Days&nbsp;&nbsp;&nbsp;</small>
+        </div>
+        <div class="time">
+            <h2 id="hours" class="numbers">00</h2>
+            <small>&nbsp;&nbsp;Hours&nbsp;&nbsp;</small>
+        </div>
+        <div class="time">
+            <h2 id="minutes" class="numbers">00</h2>
+            <small>Minutes</small>
+        </div>
+        <div class="time">
+            <h2 id="seconds" class="numbers">00</h2>
+            <small>Seconds</small>
+        </div>
+    </div>
+    
+    <img src="./img/spinner.gif" alt="loading..." id="loading" class="loading">
+    
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
